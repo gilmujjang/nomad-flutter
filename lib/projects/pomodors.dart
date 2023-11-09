@@ -2,14 +2,14 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class Pomodors extends StatefulWidget {
+  const Pomodors({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<Pomodors> createState() => PomodorsScreen();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class PomodorsScreen extends State<Pomodors> {
   static const thirtyMinutes = 1800;
   int totalSeconds = thirtyMinutes;
   bool isRunning = false;
