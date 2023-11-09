@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:toonflix/projects/pomodors.dart';
+import 'package:toonflix/api/toonflix_api.dart';
+import 'package:toonflix/screens/home_screen.dart';
 
 void main() {
+  ToonfilxApi().getTodaysToons();
   runApp(const App());
 }
 
